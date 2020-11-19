@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    border: 2.5px solid white;
+}
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+.tetromino {
+    background-color: white;
+}
+.score-grid {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    border: 2.5px solid white;
+    color: white
+}
+.score-grid h3 {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-left: 10px;
+}
+
+.score-grid #score {
+    margin-left: 5px;
+}
+
+.mini-grid {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    border: 2.5px solid white;
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
+.button{
+    width: 100%;
+    background:rgb(27, 27, 27);
+    margin: 0;
+}
+#restart-button{
+    float: right;
+}
+
